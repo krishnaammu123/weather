@@ -80,3 +80,28 @@ body{
     font-size: 26px;
     margin-top: -6px;
 }
+@media (max-width: 600px) {
+    .details {
+      flex-direction: column;
+      gap: 20px;
+      padding: 0;
+      align-items: flex-start;
+    }
+  
+    .col {
+      justify-content: flex-start;
+    }
+  
+    .weather-icon {
+      width: 120px;
+    }
+  
+    .search input {
+      font-size: 16px;
+    }
+  
+    .humidity, .wind {
+      font-size: 20px;
+    }
+  }
+  
